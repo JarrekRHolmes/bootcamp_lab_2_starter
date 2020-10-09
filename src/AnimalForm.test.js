@@ -13,7 +13,7 @@ describe("AnimalForm", () => {
     render();
   });
 
-  describe("when the animal and animal fact is passed in as props", () => {
+  context("when the animal and animal fact is passed in as props", () => {
     it("uses animal as the default value", () => {
       render({ animal: "Cat", animalFact: "Something cool" });
     });
